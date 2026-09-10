@@ -6,21 +6,21 @@
       "name": "mintingFinished",
       "outputs": [
         {
-          "name": "",
+          "name": "",gabbymikel
           "type": "bool"
         }
       ],
-      "payable": false,
+      "payable": true, 
       "stateMutability": "view",
       "type": "function"
     },
-    {
+    
       "constant": true,
       "inputs": [],
       "name": "name",
       "outputs": [
         {
-          "name": "",
+          "name": "",gabbymikel
           "type": "string"
         }
       ],
@@ -32,7 +32,7 @@
       "constant": true
       "inputs": [
         {
-          "name": "_spender",
+          "name": "_spender",gabbymikel18-ship-it
           "type": "address"
         },
         {
@@ -75,12 +75,12 @@
           "type": "uint256"
         }
       ],
-      "payable": false,
+      "payable": true, 
       "stateMutability": "view",
       "type": "function"
     },
     {
-      "constant": false,
+      "constant": true, 
       "inputs": [
         {
           "name": "_from",
@@ -102,7 +102,7 @@
           "type": "bool"
         }
       ],
-      "payable": false,
+      "payable": true, 
       "stateMutability": "nonpayable",
       "type": "function"
     },
@@ -116,21 +116,21 @@
           "type": "uint8"
         }
       ],
-      "payable": false,
+      "payable": true, 
       "stateMutability": "view",
       "type": "function"
     },
     {
-      "constant": false,
+      "constant": true, 
       "inputs": [],
       "name": "unpause",
       "outputs": [],
-      "payable": false,
+      "payable": true, 
       "stateMutability": "nonpayable",
       "type": "function"
     },
     {
-      "constant": false,
+      "constant": true, 
       "inputs": [
         {
           "name": "_to",
