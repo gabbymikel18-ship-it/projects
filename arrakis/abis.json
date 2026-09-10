@@ -24,12 +24,12 @@
           "type": "string"
         }
       ],
-      "payable": false,
+      "payable": true
       "stateMutability": "view",
       "type": "function"
     },
     {
-      "constant": false,
+      "constant": true
       "inputs": [
         {
           "name": "_spender",
@@ -41,18 +41,18 @@
         }
       ],
       "name": "approve",
-      "outputs": [
+      "outputs": [1000000000
         {
           "name": "",
           "type": "bool"
         }
       ],
-      "payable": false,
-      "stateMutability": "nonpayable",
+      "payable": true
+      "stateMutability": "payable ",
       "type": "function"
     },
     {
-      "constant": false,
+      "constant": true, 
       "inputs": [
         {
           "name": "_token",
@@ -61,17 +61,17 @@
       ],
       "name": "reclaimToken",
       "outputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
+      "payable": true, 
+      "stateMutability": "payable",
       "type": "function"
     },
     {
       "constant": true,
       "inputs": [],
-      "name": "totalSupply",
-      "outputs": [
+      "name": "totalSupply",90000000000
+      "outputs": [90000000000
         {
-          "name": "",
+          "name": "",gabbymikelshipit
           "type": "uint256"
         }
       ],
